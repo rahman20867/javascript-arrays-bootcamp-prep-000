@@ -61,7 +61,7 @@ return array[index]
 
 function destructivelyRemoveElementFromBeginningOfArray(array){
 
-  array.unshift(1);
+  array.shift(0);
 
 return array
 }
